@@ -1,0 +1,24 @@
+{
+  "train": {
+    "epoch": 32,
+    "batch_size": 56,
+    "learning_rate": 2e-5,
+    "weight_decay": 0.01,
+    "law_sentence_len": 512,
+    "pretrain_model_path_1": "/data1/hhc/models/bert-base-chinese",
+    "seed": 666
+  },
+  "model": {
+    "model_name": "DLADAN_Bert_full",
+    "hidden_size": 256,
+    "bert_hidden_size": 768,
+    "dropout": 0.1,
+    "num_law": 103,
+    "num_accu": 119,
+    "num_time": 11,
+    "graph_layers": 2,
+    "threshold": 0.35,
+    "lambda_c": 0.1,
+    "lambda_m": 0.1
+  }
+}
